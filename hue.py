@@ -48,7 +48,7 @@ class HueLightInstance:
         return val[0]==1
 
 async def main():
-    address = "ED:C2:61:04:B3:DC"
+    address = "CB:E0:41:A5:E6:42"
 
     light = HueLightInstance(address)
 
